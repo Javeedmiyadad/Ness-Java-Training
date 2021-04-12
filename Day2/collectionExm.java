@@ -25,6 +25,7 @@ public class collectionExm {
 //		 * 2. can contain duplicate elements
 //		 * 3. maintain insertion order
 //		 * 4. might slow while manipulating data
+//       ArrayList -> AbstractList -> List -> Collection -> Iterable
 		
 		
 		class Employee{
