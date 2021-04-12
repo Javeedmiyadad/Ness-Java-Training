@@ -21,6 +21,6 @@ public class Demo9 {
 		id = 10;
 	}
 	public static void print() {
-		System.out.println(" Name :"+ Student.name + ", Email :"+ Student.email+ ", Id :"+ Student.id);
+		System.out.println(" Name :"+ name + ", Email :"+ email+ ", Id :"+ id);
 	}
 }
