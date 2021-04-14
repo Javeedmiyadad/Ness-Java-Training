@@ -26,6 +26,12 @@ interface IBank{
 	void getBalance();
 }
 
+//class insufficientFundException extends Exception{
+//	public insufficientFundException() {
+//		System.out.println("Insufficient fund");
+//	}
+//}
+
 class savingsAccount implements IBank{
 	
 	private double _balance;
@@ -42,6 +48,11 @@ class savingsAccount implements IBank{
 	public boolean withdraw(double amount) {
 		if(_balance < amount) {
 			System.out.println("Insufficient fund");
+//			try {
+//			throw new insufficientFundException();
+//			}catch(insufficientFundException ex) {
+//				ex.printStackTrace();
+//			}
 			return false;
 		}
 		else if(_perDayLimit + amount > 5000) {
@@ -76,6 +87,11 @@ class currentAccount implements IBank{
 	public boolean withdraw(double amount) {
 		if(_balance < amount) {
 			System.out.println("Insufficient fund");
+//			try {
+//				throw new insufficientFundException();
+//				}catch(insufficientFundException ex) {
+//					ex.printStackTrace();
+//				}
 			return false;
 		}
 		else {
