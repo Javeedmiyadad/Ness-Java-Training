@@ -28,11 +28,13 @@ public class Demo1 {
 
 	IEmployee emp = new Employee();
 	emp.print();
-}
+	
+        }
 }
 
 interface IEmployee{
 	void print();
+	
 }
 class Employee implements IEmployee{  //we have to use implements for implementing interface in java
 	
@@ -40,6 +42,7 @@ class Employee implements IEmployee{  //we have to use implements for implementi
 	public void print() {
 		System.out.println("Interface demo");
 	}
+	
 }
 
 ;
