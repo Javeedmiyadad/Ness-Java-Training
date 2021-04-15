@@ -14,12 +14,12 @@ public class Demo7 {
 	        catch (ArithmeticException e){
              System.out.println(e.getMessage());
 	        }
-//	        catch (NullPointerException | NumberFormatException e){
-//	         System.out.println(e.getMessage());
-//	        }
-//	        catch (Exception e){
-//	         System.out.println(e.getMessage());
-//	        }
+	        catch (NullPointerException | NumberFormatException e){
+	         System.out.println(e.getMessage());
+	        }
+	        catch (Exception e){
+	         System.out.println(e.getMessage());
+	        }
 
 	    }
 
