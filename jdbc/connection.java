@@ -1,5 +1,9 @@
 package jdbc;
 
+
+//add jar files first in he java module path
+
+
 import java.sql.*;
 
 public class connection {
