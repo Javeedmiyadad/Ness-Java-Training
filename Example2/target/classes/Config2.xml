@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:p="http://www.springframework.org/schema/p"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <!-- <bean class = "com.javeed.Example2.Employee" name = "emp" init-method = "Init" destroy-method = "Destroy">
+        <property name = "id" value = "101"></property>
+        <property name = "name" value = "javeed"></property>
+        <property name = "email" value = "j@gmail.com"></property>
+        
+        </bean>
+         -->
+        
+        
+         <bean class = "com.javeed.Example2.Student" name = "std">
+        <property name = "id" value = "101"></property>
+        <property name = "name" value = "javeed"></property>
+        <property name = "email" value = "j@gmail.com"></property>
+        </bean>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </beans>
